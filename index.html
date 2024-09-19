@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <script language='JavaScript'>
+        var txt=" | BIRTHDAY CARD | HAPPY BIRTHDAY MY BRO ";
+        var speed=180;
+        var refresh=null;
+        function action() { document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresh=setTimeout("action()",speed);}action();
+    </script>
+    <title>BirthDay Card</title>
+</head>
+<body>
+    <div class="birthday-card">
+        <div class="image-section">
+            <img src="assets/img2.jpg" alt="birthday-img">
+        </div>
+        <div class="text-section">
+            <h1 class="blinking">
+                HAPPY BIRTHDAY
+            </h1>
+            <p>
+                Dear Bertholdt
+            </p>
+            <p>
+                Happy Birthday to someone who lights up every room with their incredible sense of humor and boundless energy! Your quirky ways and infectious laughter make every day more fun and unforgettable.
+            </p>
+            <p>
+                May your birthday be filled with as much joy and excitement as you bring to everyone around you. Cheers to another year of amazing adventures and even more hilarious moments together!
+            </p>
+            <p>
+                Sending you all my love and the warmest wishes,
+            </p>
+            <p>
+                W Vandenklein
+            </p>
+        </div>
+    </div>
+</body>
+</html>
